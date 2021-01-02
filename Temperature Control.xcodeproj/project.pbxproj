@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEA4FA972567A99F0018D2E7 /* Temperature_ControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FA962567A99F0018D2E7 /* Temperature_ControlApp.swift */; };
+		EEA4FA992567A99F0018D2E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FA982567A99F0018D2E7 /* ContentView.swift */; };
+		EEA4FA9B2567A9A10018D2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA4FA9A2567A9A10018D2E7 /* Assets.xcassets */; };
+		EEA4FA9E2567A9A10018D2E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA4FA9D2567A9A10018D2E7 /* Preview Assets.xcassets */; };
+		EEA4FAAA2567ABF80018D2E7 /* CircleRular.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FAA92567ABF80018D2E7 /* CircleRular.swift */; };
+		EEA4FAAD2567AC5F0018D2E7 /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FAAC2567AC5F0018D2E7 /* TemperatureView.swift */; };
+		EEA4FAB02567D6670018D2E7 /* SmartScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FAAF2567D6670018D2E7 /* SmartScheduleView.swift */; };
+		EEA4FAB32567D6B20018D2E7 /* ModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FAB22567D6B20018D2E7 /* ModeButton.swift */; };
+		EEA4FAB72567D6F90018D2E7 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FAB62567D6F90018D2E7 /* Mode.swift */; };
+		EEA4FABC2567D7230018D2E7 /* ModeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FABB2567D7230018D2E7 /* ModeSelector.swift */; };
+		EEA4FAC02567D7760018D2E7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FABF2567D7760018D2E7 /* Data.swift */; };
+		EEA4FAC32567DB680018D2E7 /* FanSpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FAC22567DB680018D2E7 /* FanSpeedView.swift */; };
+		EEA4FAC62567DC1A0018D2E7 /* ModeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FAC52567DC1A0018D2E7 /* ModeSelectionView.swift */; };
+		EEA4FACB2567E9060018D2E7 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4FACA2567E9060018D2E7 /* PowerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEA4FA932567A99F0018D2E7 /* Temperature Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Temperature Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA4FA962567A99F0018D2E7 /* Temperature_ControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature_ControlApp.swift; sourceTree = "<group>"; };
+		EEA4FA982567A99F0018D2E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEA4FA9A2567A9A10018D2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA4FA9D2567A9A10018D2E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEA4FA9F2567A9A10018D2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA4FAA92567ABF80018D2E7 /* CircleRular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRular.swift; sourceTree = "<group>"; };
+		EEA4FAAC2567AC5F0018D2E7 /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
+		EEA4FAAF2567D6670018D2E7 /* SmartScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartScheduleView.swift; sourceTree = "<group>"; };
+		EEA4FAB22567D6B20018D2E7 /* ModeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeButton.swift; sourceTree = "<group>"; };
+		EEA4FAB62567D6F90018D2E7 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		EEA4FABB2567D7230018D2E7 /* ModeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelector.swift; sourceTree = "<group>"; };
+		EEA4FABF2567D7760018D2E7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EEA4FAC22567DB680018D2E7 /* FanSpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanSpeedView.swift; sourceTree = "<group>"; };
+		EEA4FAC52567DC1A0018D2E7 /* ModeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionView.swift; sourceTree = "<group>"; };
+		EEA4FACA2567E9060018D2E7 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA4FA902567A99F0018D2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA4FA8A2567A99F0018D2E7 = {
+			isa = PBXGroup;
+			children = (
+				EEA4FA952567A99F0018D2E7 /* Temperature Control */,
+				EEA4FA942567A99F0018D2E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA4FA942567A99F0018D2E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4FA932567A99F0018D2E7 /* Temperature Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA4FA952567A99F0018D2E7 /* Temperature Control */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4FABA2567D7140018D2E7 /* Data */,
+				EEA4FAB52567D6E90018D2E7 /* Model */,
+				EEA4FAA72567A9AE0018D2E7 /* View */,
+				EEA4FAA62567A9A50018D2E7 /* App */,
+				EEA4FA9A2567A9A10018D2E7 /* Assets.xcassets */,
+				EEA4FA9F2567A9A10018D2E7 /* Info.plist */,
+				EEA4FA9C2567A9A10018D2E7 /* Preview Content */,
+			);
+			path = "Temperature Control";
+			sourceTree = "<group>";
+		};
+		EEA4FA9C2567A9A10018D2E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4FA9D2567A9A10018D2E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEA4FAA62567A9A50018D2E7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4FA962567A99F0018D2E7 /* Temperature_ControlApp.swift */,
+				EEA4FA982567A99F0018D2E7 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EEA4FAA72567A9AE0018D2E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4FAA92567ABF80018D2E7 /* CircleRular.swift */,
+				EEA4FAAC2567AC5F0018D2E7 /* TemperatureView.swift */,
+				EEA4FAAF2567D6670018D2E7 /* SmartScheduleView.swift */,
+				EEA4FAC52567DC1A0018D2E7 /* ModeSelectionView.swift */,
+				EEA4FAB22567D6B20018D2E7 /* ModeButton.swift */,
+				EEA4FAC22567DB680018D2E7 /* FanSpeedView.swift */,
+				EEA4FACA2567E9060018D2E7 /* PowerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEA4FAB52567D6E90018D2E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4FAB62567D6F90018D2E7 /* Mode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEA4FABA2567D7140018D2E7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4FABB2567D7230018D2E7 /* ModeSelector.swift */,
+				EEA4FABF2567D7760018D2E7 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA4FA922567A99F0018D2E7 /* Temperature Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA4FAA22567A9A10018D2E7 /* Build configuration list for PBXNativeTarget "Temperature Control" */;
+			buildPhases = (
+				EEA4FA8F2567A99F0018D2E7 /* Sources */,
+				EEA4FA902567A99F0018D2E7 /* Frameworks */,
+				EEA4FA912567A99F0018D2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Temperature Control";
+			productName = "Temperature Control";
+			productReference = EEA4FA932567A99F0018D2E7 /* Temperature Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA4FA8B2567A99F0018D2E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EEA4FA922567A99F0018D2E7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EEA4FA8E2567A99F0018D2E7 /* Build configuration list for PBXProject "Temperature Control" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA4FA8A2567A99F0018D2E7;
+			productRefGroup = EEA4FA942567A99F0018D2E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA4FA922567A99F0018D2E7 /* Temperature Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA4FA912567A99F0018D2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA4FA9E2567A9A10018D2E7 /* Preview Assets.xcassets in Resources */,
+				EEA4FA9B2567A9A10018D2E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA4FA8F2567A99F0018D2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA4FAAA2567ABF80018D2E7 /* CircleRular.swift in Sources */,
+				EEA4FAAD2567AC5F0018D2E7 /* TemperatureView.swift in Sources */,
+				EEA4FAC32567DB680018D2E7 /* FanSpeedView.swift in Sources */,
+				EEA4FAC62567DC1A0018D2E7 /* ModeSelectionView.swift in Sources */,
+				EEA4FA992567A99F0018D2E7 /* ContentView.swift in Sources */,
+				EEA4FABC2567D7230018D2E7 /* ModeSelector.swift in Sources */,
+				EEA4FACB2567E9060018D2E7 /* PowerView.swift in Sources */,
+				EEA4FA972567A99F0018D2E7 /* Temperature_ControlApp.swift in Sources */,
+				EEA4FAB02567D6670018D2E7 /* SmartScheduleView.swift in Sources */,
+				EEA4FAB32567D6B20018D2E7 /* ModeButton.swift in Sources */,
+				EEA4FAC02567D7760018D2E7 /* Data.swift in Sources */,
+				EEA4FAB72567D6F90018D2E7 /* Mode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEA4FAA02567A9A10018D2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEA4FAA12567A9A10018D2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA4FAA32567A9A10018D2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Temperature Control/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Temperature Control/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tefusakipuita.Temperature-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEA4FAA42567A9A10018D2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Temperature Control/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Temperature Control/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tefusakipuita.Temperature-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA4FA8E2567A99F0018D2E7 /* Build configuration list for PBXProject "Temperature Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA4FAA02567A9A10018D2E7 /* Debug */,
+				EEA4FAA12567A9A10018D2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA4FAA22567A9A10018D2E7 /* Build configuration list for PBXNativeTarget "Temperature Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA4FAA32567A9A10018D2E7 /* Debug */,
+				EEA4FAA42567A9A10018D2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEA4FA8B2567A99F0018D2E7 /* Project object */;
+}
